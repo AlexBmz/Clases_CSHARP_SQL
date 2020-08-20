@@ -10,6 +10,7 @@ namespace Clase0.consolapp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Mi primer proyecto con GIT");
         }
     }
 }
