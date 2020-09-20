@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica-JABM", "Practica-J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica1.CosolApp1JABM", "Practica1.CosolApp1JABM\Practica1.CosolApp1JABM.csproj", "{E8646870-E392-4439-B348-95A637B670F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica.JABM3", "Practica.JABM3\Practica.JABM3.csproj", "{9A47670D-C76B-40BD-A7A9-84562E55CCB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E8646870-E392-4439-B348-95A637B670F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8646870-E392-4439-B348-95A637B670F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8646870-E392-4439-B348-95A637B670F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A47670D-C76B-40BD-A7A9-84562E55CCB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A47670D-C76B-40BD-A7A9-84562E55CCB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A47670D-C76B-40BD-A7A9-84562E55CCB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A47670D-C76B-40BD-A7A9-84562E55CCB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

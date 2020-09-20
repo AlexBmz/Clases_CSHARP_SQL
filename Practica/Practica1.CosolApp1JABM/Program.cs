@@ -19,6 +19,8 @@ namespace Practica1.CosolApp1JABM
             String rsp3 = "";
             string rsp4 = "";
             ClienteDAO oClienteDAO = new ClienteDAO();
+            PaisDAO oPaisDAO = new PaisDAO();
+            TarjetaDAO oTarjDAO = new TarjetaDAO();
             do
             {
                 Console.WriteLine("1 - Registrar ");
@@ -47,12 +49,12 @@ namespace Practica1.CosolApp1JABM
                                         break;
                                     case 2:
                                         {
-
+                                            oTarjDAO.RegistrarTarjeta();
                                         }
                                         break;
                                     case 3:
                                         {
-
+                                            oPaisDAO.RegistrarPais();
                                         }
                                         break;
                                     default:
@@ -86,12 +88,12 @@ namespace Practica1.CosolApp1JABM
                                         break;
                                     case 2:
                                         {
-
+                                            oTarjDAO.ListarTarjeta();
                                         }
                                         break;
                                     case 3:
                                         {
-
+                                            oPaisDAO.ListarPais();
                                         }
                                         break;
                                     default:
@@ -124,7 +126,7 @@ namespace Practica1.CosolApp1JABM
                                         break;
                                     case 2:
                                         {
-
+                                            oPaisDAO.ActualizarPais();
                                         }
                                         break;
                                     case 3:
