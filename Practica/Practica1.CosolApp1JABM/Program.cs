@@ -131,7 +131,7 @@ namespace Practica1.CosolApp1JABM
                                         break;
                                     case 3:
                                         {
-
+                                            oPaisDAO.ActualizarPais();
                                         }
                                         break;
                                     default:
